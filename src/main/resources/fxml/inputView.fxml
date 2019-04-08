@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="1000.0" style="-fx-background-color: #009900;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userInterface.InputController">
+    <children>
+        <HBox layoutX="14.0" layoutY="14.0">
+            <children>
+                <VBox prefHeight="630.0" prefWidth="630.0">
+                    <children>
+                        <Line endX="548.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                        <HBox prefHeight="70.0" prefWidth="591.0">
+                            <children>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell00" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell01" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell02" layoutX="50.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell03" layoutX="90.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell04" layoutX="130.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell05" layoutX="170.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell06" layoutX="210.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell07" layoutX="250.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell08" layoutX="290.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                            </children>
+                        </HBox>
+                        <Line endX="548.0" startX="-100.0" strokeLineCap="BUTT" />
+                        <HBox layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="591.0">
+                            <children>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell09" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell10" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell11" layoutX="50.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell12" layoutX="90.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell13" layoutX="130.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell14" layoutX="170.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell15" layoutX="210.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell16" layoutX="250.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell17" layoutX="290.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                            </children>
+                        </HBox>
+                        <Line endX="548.0" startX="-100.0" strokeLineCap="BUTT" />
+                        <HBox prefHeight="70.0" prefWidth="591.0">
+                            <children>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell18" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell19" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell20" layoutX="50.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell21" layoutX="90.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell22" layoutX="130.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell23" layoutX="170.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell24" layoutX="210.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell25" layoutX="250.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell26" layoutX="290.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                            </children>
+                        </HBox>
+                        <Line endX="548.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                        <HBox prefHeight="70.0" prefWidth="591.0">
+                            <children>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell27" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell28" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell29" layoutX="50.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell30" layoutX="90.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell31" layoutX="130.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell32" layoutX="170.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell33" layoutX="210.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell34" layoutX="250.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell35" layoutX="290.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                            </children>
+                        </HBox>
+                        <Line endX="548.0" startX="-100.0" strokeLineCap="BUTT" />
+                        <HBox prefHeight="70.0" prefWidth="591.0">
+                            <children>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell36" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell37" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell38" layoutX="50.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell39" layoutX="90.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell40" layoutX="130.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell41" layoutX="170.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell42" layoutX="210.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell43" layoutX="250.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell44" layoutX="290.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                            </children>
+                        </HBox>
+                        <Line endX="548.0" startX="-100.0" strokeLineCap="BUTT" />
+                        <HBox prefHeight="70.0" prefWidth="591.0">
+                            <children>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell45" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell46" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell47" layoutX="50.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell48" layoutX="90.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell49" layoutX="130.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell50" layoutX="170.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell51" layoutX="210.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell52" layoutX="250.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell53" layoutX="290.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                            </children>
+                        </HBox>
+                        <Line endX="548.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                        <HBox prefHeight="70.0" prefWidth="591.0">
+                            <children>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell54" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell55" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell56" layoutX="50.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell57" layoutX="90.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell58" layoutX="130.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell59" layoutX="170.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell60" layoutX="210.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell61" layoutX="250.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell62" layoutX="290.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                            </children>
+                        </HBox>
+                        <Line endX="548.0" startX="-100.0" strokeLineCap="BUTT" />
+                        <HBox prefHeight="70.0" prefWidth="591.0">
+                            <children>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell63" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell64" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell65" layoutX="50.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell66" layoutX="90.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell67" layoutX="130.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell68" layoutX="170.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell69" layoutX="210.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell70" layoutX="250.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell71" layoutX="290.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                            </children>
+                        </HBox>
+                        <Line endX="548.0" startX="-100.0" strokeLineCap="BUTT" />
+                        <HBox prefHeight="70.0" prefWidth="591.0">
+                            <children>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell72" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell73" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell74" layoutX="50.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell75" layoutX="90.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell76" layoutX="130.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell77" layoutX="170.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                                <ChoiceBox fx:id="cell78" layoutX="210.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell79" layoutX="250.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" />
+                                <ChoiceBox fx:id="cell80" layoutX="290.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="70.0" stylesheets="@style.css">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </ChoiceBox>
+                                <Line endX="-100.0" endY="70.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                            </children>
+                        </HBox>
+                        <Line endX="548.0" startX="-100.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <VBox layoutX="685.0" layoutY="14.0">
+            <children>
+                <TextArea fx:id="textAreaInputView" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="260.0" wrapText="true">
+                    <font>
+                        <Font name="Impact" size="26.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="20.0" top="30.0" />
+                    </VBox.margin>
+                </TextArea>
+                <Button fx:id="solveButtonInputView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#actionSolve" prefHeight="51.0" prefWidth="260.0" text="Solve the Sudoku">
+                    <font>
+                        <Font name="Impact" size="26.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="20.0" top="30.0" />
+                    </VBox.margin></Button>
+                <Button fx:id="clearButtonInputView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#actionClear" prefHeight="51.0" prefWidth="260.0" text="Clear the grid">
+                    <font>
+                        <Font name="Impact" size="26.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="20.0" top="30.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="returnButtonInputView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="51.0" prefWidth="260.0" text="Return to input mode">
+                    <font>
+                        <Font name="Impact" size="26.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="20.0" top="30.0" />
+                    </VBox.margin></Button>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

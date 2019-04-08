@@ -1,0 +1,21 @@
+
+
+.choice-box .context-menu { -fx-background-color: white; }
+
+.choice-box .menu-item:focused { -fx-background-color: yellow; }
+
+.choice-box .menu-item > .label { -fx-text-fill: black; }
+
+.choice-box .menu-item:focused > .label { -fx-text-fill: black; }
+
+
+
+.choice-box {
+  -fx-background-color: #009900;
+  -fx-mark-color: #009900;
+  -fx-font-family: "Impact";
+  -fx-font-size: 26px;
+}
+
+
+.choice-box > .label { -fx-text-fill: black; }
